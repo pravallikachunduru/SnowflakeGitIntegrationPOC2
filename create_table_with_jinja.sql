@@ -1,5 +1,5 @@
 --!jinja
-CREATE  or replace TABLE {{DATABASE_NAME}}.{{SCHEMA_NAME}}.TEST_TABLE_WITH_JINJA
+CREATE  or replace TABLE {{db_name}}.{{schema_name}}.TEST_TABLE_WITH_JINJA
 (
  COL1 INTEGER,
  COL2 OBJECT
